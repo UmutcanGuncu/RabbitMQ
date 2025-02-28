@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZPx7LPyFKjQ=",
+  "success": true,
+  "projectFilePath": "/Users/umutcanguncu/RiderProjects/RabbitMQ/DirectExchange/DirectExchange.Consumer/DirectExchange.Consumer.csproj",
+  "expectedPackageFiles": [
+    "/Users/umutcanguncu/.nuget/packages/rabbitmq.client/7.1.0/rabbitmq.client.7.1.0.nupkg.sha512",
+    "/Users/umutcanguncu/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
+    "/Users/umutcanguncu/.nuget/packages/system.threading.ratelimiting/8.0.0/system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/umutcanguncu/RiderProjects/RabbitMQ/RabbitMQ.ESB/RabbitMQ.ESB.MassTransit.Consumer/RabbitMQ.ESB.MassTransit.Consumer.csproj": {}
+  },
+  "projects": {
+    "/Users/umutcanguncu/RiderProjects/RabbitMQ/RabbitMQ.ESB/RabbitMQ.ESB.MassTransit.Consumer/RabbitMQ.ESB.MassTransit.Consumer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/umutcanguncu/RiderProjects/RabbitMQ/RabbitMQ.ESB/RabbitMQ.ESB.MassTransit.Consumer/RabbitMQ.ESB.MassTransit.Consumer.csproj",
+        "projectName": "RabbitMQ.ESB.MassTransit.Consumer",
+        "projectPath": "/Users/umutcanguncu/RiderProjects/RabbitMQ/RabbitMQ.ESB/RabbitMQ.ESB.MassTransit.Consumer/RabbitMQ.ESB.MassTransit.Consumer.csproj",
+        "packagesPath": "/Users/umutcanguncu/.nuget/packages/",
+        "outputPath": "/Users/umutcanguncu/RiderProjects/RabbitMQ/RabbitMQ.ESB/RabbitMQ.ESB.MassTransit.Consumer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/umutcanguncu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/umutcanguncu/RiderProjects/RabbitMQ/RabbitMQ.ESB/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj": {
+                "projectPath": "/Users/umutcanguncu/RiderProjects/RabbitMQ/RabbitMQ.ESB/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.3.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/umutcanguncu/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/umutcanguncu/RiderProjects/RabbitMQ/RabbitMQ.ESB/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/umutcanguncu/RiderProjects/RabbitMQ/RabbitMQ.ESB/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj",
+        "projectName": "RabbitMQ.ESB.MassTransit.Shared",
+        "projectPath": "/Users/umutcanguncu/RiderProjects/RabbitMQ/RabbitMQ.ESB/RabbitMQ.ESB.MassTransit.Shared/RabbitMQ.ESB.MassTransit.Shared.csproj",
+        "packagesPath": "/Users/umutcanguncu/.nuget/packages/",
+        "outputPath": "/Users/umutcanguncu/RiderProjects/RabbitMQ/RabbitMQ.ESB/RabbitMQ.ESB.MassTransit.Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/umutcanguncu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/umutcanguncu/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

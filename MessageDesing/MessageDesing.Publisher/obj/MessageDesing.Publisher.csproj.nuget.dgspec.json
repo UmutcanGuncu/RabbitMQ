@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/umutcanguncu/RiderProjects/RabbitMQ/MessageDesing/MessageDesing.Publisher/MessageDesing.Publisher.csproj": {}
+  },
+  "projects": {
+    "/Users/umutcanguncu/RiderProjects/RabbitMQ/MessageDesing/MessageDesing.Publisher/MessageDesing.Publisher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/umutcanguncu/RiderProjects/RabbitMQ/MessageDesing/MessageDesing.Publisher/MessageDesing.Publisher.csproj",
+        "projectName": "MessageDesing.Publisher",
+        "projectPath": "/Users/umutcanguncu/RiderProjects/RabbitMQ/MessageDesing/MessageDesing.Publisher/MessageDesing.Publisher.csproj",
+        "packagesPath": "/Users/umutcanguncu/.nuget/packages/",
+        "outputPath": "/Users/umutcanguncu/RiderProjects/RabbitMQ/MessageDesing/MessageDesing.Publisher/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/umutcanguncu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/umutcanguncu/.dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
